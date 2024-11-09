@@ -21,7 +21,7 @@ If not, see <https://www.gnu.org/licenses/>. 
 """
 
 import pytest
-from isa_m68k.py_models import Interval
+from py_models import Interval
 
 
 def test__Interval__has_expected_properties():
