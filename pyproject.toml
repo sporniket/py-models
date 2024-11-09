@@ -53,6 +53,8 @@ _ci_only = { composite = ["_coverage_pytest","_coverage_report","_coverage_html"
 ci = { composite = ["clean", "lint_ci", "_ci_only"] }
 _pytest = "python3 -m pytest -vv"
 test = { composite = ["clean", "reformat", "_pytest"] }
+# --- publish 
+_publish = "python3 -m twine upload --repository pypi dist/*"
 
 
 [tool.pdm.dev-dependencies]
