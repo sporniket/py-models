@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
 """
 An _interval_ between a and b, with `a <= b`, will mean all the numbers between a _included_ and b _excluded_,
 i.e. in mathematical notation : `[a..b[`
@@ -8,19 +9,19 @@ i.e. in mathematical notation : `[a..b[`
 ---
 (c) 2024 David SPORN
 ---
-This is part of py-isa-m68k -- Toolbox for the Motorola 68k Instruction Set Architecture.
+This is part of py-models -- A collection of basic data models in python.
 
-py-isa-m68k is free software: you can redistribute it and/or
+py-models is free software: you can redistribute it and/or
 modify it under the terms of the GNU General Public License as published by the
 Free Software Foundation, either version 3 of the License, or (at your option)
 any later version.
 
-py-isa-m68k is distributed in the hope that it will be useful,
+py-models is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
 or FITNESS FOR A PARTICULAR PURPOSE.
 
 See the GNU General Public License for more details.
-You should have received a copy of the GNU General Public License along with py-isa-m68k.
+You should have received a copy of the GNU General Public License along with py-models.
 If not, see <https://www.gnu.org/licenses/>. 
 ---
 """
