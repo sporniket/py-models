@@ -1,6 +1,6 @@
 [project]
 name = "py-models-by-sporniket"
-version = "0.0.1"
+version = "1.0.0"
 description = "A collection of basic data models in python"
 authors = [
     {name = "Sporniket", email = "sporniket.studio@gmail.com"},
